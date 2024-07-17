@@ -9,6 +9,8 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/f3726a4d63.js" crossorigin="anonymous"></script>
+    <!-- AOS CSS Animated Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Tailwind Library -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
 </head>
@@ -88,10 +90,10 @@
         <div class="items-center flex flex-wrap">
           <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
             <div class="pr-12">
-              <h1 class="text-white font-semibold text-5xl capitalize">
+              <h1 class="text-white font-semibold text-5xl capitalize" data-aos="fade-up">
                 Welcome your epiphany.
               </h1>
-              <p class="mt-4 text-lg text-gray-300">
+              <p class="mt-4 text-lg text-gray-300" data-aos="fade-down" data-aos-delay="1000">
                 Lorem ipsum dolor sit. Eum totam aspernatur aliquam praesentium aperiam magni, dignissimos, atque incidunt fuga nulla distinctio eligendi enim placeat nesciunt, soluta maxime nihil ipsa minus!
               </p>
             </div>
@@ -127,7 +129,7 @@
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap">
           <!-- Card -->
-          <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+          <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center" data-aos="fade-right" data-aos-delay="1200">
             <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
               <div class="px-4 py-5 flex-auto">
                 <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
@@ -143,7 +145,7 @@
             </div>
           </div>
           <!-- Card -->
-          <div class="w-full md:w-4/12 px-4 text-center">
+          <div class="w-full md:w-4/12 px-4 text-center" data-aos="fade-up" data-aos-delay="1400">
             <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
               <div class="px-4 py-5 flex-auto">
                 <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
@@ -159,7 +161,7 @@
             </div>
           </div>
           <!-- Card -->
-          <div class="pt-6 w-full md:w-4/12 px-4 text-center">
+          <div class="pt-6 w-full md:w-4/12 px-4 text-center" data-aos="fade-left" data-aos-delay="1600">
             <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
               <div class="px-4 py-5 flex-auto">
                 <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
@@ -179,7 +181,7 @@
         <!-- Text Box and Card Container -->
         <div class="flex flex-wrap items-center mt-32">
           <!-- Text Box Container -->
-          <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
+          <div class="w-full md:w-5/12 px-4 mr-auto ml-auto" data-aos="zoom-in-right">
             <!-- Text Box -->
             <div class="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-orange-500">
               <!-- Icon -->
@@ -202,7 +204,7 @@
           </div>
 
           <!-- Image Cap & Text Card -->
-          <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+          <div class="w-full md:w-4/12 px-4 mr-auto ml-auto" data-aos="zoom-out-left" data-aos-delay="1000">
             <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-orange-500">
               <!-- Image -->
               <img
@@ -264,7 +266,7 @@
       <!-- Section Container -->
       <div class="container mx-auto px-4">
         <div class="items-center flex flex-wrap">
-          <div class="w-full md:w-4/12 ml-auto mr-auto px-4"> 
+          <div class="w-full md:w-4/12 ml-auto mr-auto px-4" data-aos="zoom-out-right" data-aos-delay="1000"> 
             <!-- Image -->
             <img
               alt="..."
@@ -273,7 +275,7 @@
             />
           </div>
           <!-- Text Box Container-->
-          <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+          <div class="w-full md:w-5/12 ml-auto mr-auto px-4" data-aos="zoom-in-left">
             <div class="md:pr-12">
               <div class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300">
                 <!-- Icon -->
@@ -344,8 +346,8 @@
         <!-- Text Box -->
         <div class="flex flex-wrap justify-center text-center mb-24">
           <div class="w-full lg:w-6/12 px-4">
-            <h2 class="text-4xl font-semibold capitalize">Here are our heroes</h2>
-            <p class="text-lg leading-relaxed m-4 text-gray-600">
+            <h2 class="text-4xl font-semibold capitalize" data-aos="fade-right">Here are our heroes</h2>
+            <p class="text-lg leading-relaxed m-4 text-gray-600" data-aos="fade-left">
               According to the National Oceanic and Atmospheric
               Administration, Ted, Scambos, NSIDClead scentist, puts the
               potentially record maximum.
@@ -362,15 +364,15 @@
                 alt="..."
                 src="https://randomuser.me/api/portraits/men/54.jpg"               
                 class="shadow-lg rounded-full max-w-full mx-auto"
-                style="max-width: 120px;"
+                style="max-width: 120px;" data-aos="zoom-out-right"
               />
-              <div class="pt-6 text-center">
+              <div class="pt-6 text-center" data-aos="zoom-in-up">
                 <h5 class="text-xl font-bold">Ryan Thompson</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                   Web Developer
                 </p>
                 <!-- Social Media Buttons -->
-                <div class="mt-6">
+                <div class="mt-6" data-aos="zoom-out-down">
                   <button class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
                     <!-- Icon -->
                     <i class="fab fa-twitter"></i>
@@ -395,15 +397,15 @@
                 alt="..."
                 src="https://randomuser.me/api/portraits/women/2.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
-                style="max-width: 120px;"
+                style="max-width: 120px;" data-aos="zoom-out-down" data-aos-delay="1000"
               />
-              <div class="pt-6 text-center">
+              <div class="pt-6 text-center" data-aos="zoom-in-up" data-aos-delay="1000">
                 <h5 class="text-xl font-bold">Romina Hadid</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                   Marketing Specialist
                 </p>
                 <!-- Social Media Buttons -->
-                <div class="mt-6">
+                <div class="mt-6" data-aos="zoom-out-down" data-aos-delay="1000">
                   <button class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
                     <!-- Icon -->
                     <i class="fab fa-google"></i>
@@ -424,15 +426,15 @@
                 alt="..."
                 src="https://randomuser.me/api/portraits/women/36.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
-                style="max-width: 120px;"
+                style="max-width: 120px;" data-aos="zoom-out-up" data-aos-delay="1000"
               />
-              <div class="pt-6 text-center">
+              <div class="pt-6 text-center" data-aos="zoom-in-up" data-aos-delay="1000">
                 <h5 class="text-xl font-bold">Alexa Smith</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                   UI/UX Designer
                 </p>
                 <!-- Social Media Buttons -->
-                <div class="mt-6">
+                <div class="mt-6" data-aos="zoom-out-up" data-aos-delay="1000">
                   <button class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
                     <!-- Icon -->
                     <i class="fab fa-google"></i>
@@ -457,15 +459,15 @@
                 alt="..."
                 src="https://randomuser.me/api/portraits/women/58.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
-                style="max-width: 120px;"
+                style="max-width: 120px;" data-aos="zoom-out-left"
               />
-              <div class="pt-6 text-center">
+              <div class="pt-6 text-center" data-aos="zoom-in-up">
                 <h5 class="text-xl font-bold">Jenna Kardi</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                   Founder and CEO
                 </p>
                 <!-- Social Media Buttons -->
-                <div class="mt-6">
+                <div class="mt-6" data-aos="zoom-out-down">
                   <button class="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
                     <!-- Icon -->
                     <i class="fab fa-dribbble"></i>
@@ -518,8 +520,8 @@
         <!-- Text Box -->
         <div class="flex flex-wrap text-center justify-center">
           <div class="w-full lg:w-6/12 px-4">
-            <h2 class="text-4xl font-semibold text-white capitalize">Build something</h2>
-            <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
+            <h2 class="text-4xl font-semibold text-white capitalize"data-aos="flip-down">Build something</h2>
+            <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500"data-aos="flip-up">
               Put the potentially record low maximum sea ice extent tihs year
               down to low ice. According to the National Oceanic and
               Atmospheric Administration, Ted, Scambos.
@@ -529,7 +531,7 @@
         <!-- Flex Row Container -->
         <div class="flex flex-wrap mt-12 justify-center">
           <!-- Item -->
-          <div class="w-full lg:w-3/12 px-4 text-center">
+          <div class="w-full lg:w-3/12 px-4 text-center"data-aos="fade-right" data-aos-delay="1000">
             <div class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
               <!-- Icon -->
               <i class="fas fa-medal text-xl"></i>
@@ -544,7 +546,7 @@
             </p>
           </div>
           <!-- Item -->
-          <div class="w-full lg:w-3/12 px-4 text-center">
+          <div class="w-full lg:w-3/12 px-4 text-center"data-aos="fade-down"data-aos-delay="1200">
             <div class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
               <!-- Icon -->
               <i class="fas fa-poll text-xl"></i>
@@ -559,7 +561,7 @@
             </p>
           </div>
           <!-- Item -->
-          <div class="w-full lg:w-3/12 px-4 text-center">
+          <div class="w-full lg:w-3/12 px-4 text-center"data-aos="fade-left"data-aos-delay="1000">
             <div class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
               <!-- Icon -->
               <i class="fas fa-lightbulb text-xl"></i>
@@ -580,7 +582,8 @@
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
           <div class="w-full lg:w-6/12 px-4">
-            <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300">
+            <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic">
               <div class="flex-auto p-5 lg:p-10">
                 <h4 class="text-2xl font-semibold capitalize">Want to work with us?</h4>
                 <p class="leading-relaxed mt-1 mb-4 text-gray-600">
@@ -666,7 +669,7 @@
     <div class="container mx-auto px-4">
       <!-- Text Box Container -->
       <div class="flex flex-wrap">
-        <div class="w-full lg:w-6/12 px-4">
+        <div class="w-full lg:w-6/12 px-4"data-aos="flip-right">
           <h4 class="text-3xl font-semibold capitalize">Let's keep in touch!</h4>
           <h5 class="text-lg mt-0 mb-2 text-gray-700">
             Find us on any of these platforms, we respond 1-2 business days.
@@ -681,7 +684,7 @@
         </div>
       <!-- List Container -->
       <div class="w-full lg:w-6/12 px-4">
-          <div class="flex flex-wrap items-top mb-6">
+          <div class="flex flex-wrap items-top mb-6"data-aos="flip-left">
             <!-- List 1 -->
             <div class="w-full lg:w-4/12 px-4 ml-auto">
               <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">Useful Links</span>
@@ -748,6 +751,16 @@
   </footer>
   <!-- End of Footer Section -->
 </body>
+<!-- AOS JS Animation -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    delay: 200, // values from 0 to 3000, with step 50ms
+    duration: 1500, // values from 0 to 3000, with step 50ms
+    once: false, // whether animation should happen only once - while scrolling down
+    mirror: false, // whether elements should animate out while scrolling past them
+});
+</script>
 <!-- Navigation Script -->
 <script>
   function toggleNavbar(collapseID) {
